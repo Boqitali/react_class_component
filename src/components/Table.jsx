@@ -78,7 +78,7 @@ export default class TodoList extends Component {
 
         {/* modal */}
         {showModal && (
-          <div className="fixed inset-0 bg-gray-900 bg-opacity-40 flex items-center justify-center">
+          <div className="fixed inset-0 bg-blue-500 bg-opacity-40 flex items-center justify-center">
             <form
               onSubmit={this.handleSubmit}
               className="bg-white p-6 rounded shadow-md w-full max-w-md"
